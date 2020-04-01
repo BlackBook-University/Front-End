@@ -41,12 +41,6 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="TTg-C3-hb6">
-                                <rect key="frame" x="-35" y="-33" width="490" height="484"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="TTg-C3-hb6" secondAttribute="height" multiplier="61:63" constant="21.365079365079339" id="FYH-Hp-sGc"/>
-                                </constraints>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Forgot Password? Forgot Username?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" background="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="6B9-XA-cRJ">
                                 <rect key="frame" x="75" y="654" width="264" height="34"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -60,6 +54,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="White" translatesAutoresizingMaskIntoConstraints="NO" id="TTg-C3-hb6">
+                                <rect key="frame" x="-35" y="-33" width="490" height="484"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TTg-C3-hb6" secondAttribute="height" multiplier="61:63" constant="21.365079365079339" id="FYH-Hp-sGc"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="tintColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
