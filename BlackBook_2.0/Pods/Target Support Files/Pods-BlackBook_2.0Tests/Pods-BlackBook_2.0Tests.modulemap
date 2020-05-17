@@ -1,6 +1,0 @@
-framework module Pods_BlackBook_2_0Tests {
-  umbrella header "Pods-BlackBook_2.0Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
