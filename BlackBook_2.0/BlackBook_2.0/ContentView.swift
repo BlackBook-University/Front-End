@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     @State private var selection = 0
@@ -37,6 +38,27 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         ContentView()
     }
+}
+
+class ViewController: UIViewController {
+    
+    @IBAction func FacebookSignin(_ sender: Any) {
+    }
+    
+    @IBAction func GoogleSignIn(_ sender: Any) {
+    }
+    
+    
+    @IBAction func EmailSignIn(_ sender: Any) {
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+     
+    
+    
 }
